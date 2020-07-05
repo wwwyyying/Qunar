@@ -4,7 +4,7 @@
  * @Author: YoungW
  * @Date: 2020-07-04 09:11:41
  * @LastEditors: YoungW
- * @LastEditTime: 2020-07-04 09:23:34
+ * @LastEditTime: 2020-07-05 21:35:54
 --> 
 <template>
   <div class="content">
@@ -60,26 +60,26 @@ export default {
   }
 
   .order::before {
-    background-image: url(../img/address.png);
+    background-image: url(~img/address.png);
   }
 
   .payback::before {
-    background-image: url(../img/money.png);
+    background-image: url(~img/money.png);
   }
   .receipt::before {
-    background-image: url(../img/address.png);
+    background-image: url(~img/address.png);
   }
 
   .plan::before {
-    background-image: url(../img/money.png);
+    background-image: url(~img/money.png);
   }
 
   .email::before {
-    background-image: url(../img/email.png);
+    background-image: url(~img/email.png);
   }
 
   .question::before {
-    background-image: url(../img/question.png);
+    background-image: url(~img/question.png);
   }
 
   .items li::after {
